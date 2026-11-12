@@ -1,0 +1,19 @@
+name: bluetooth_thermal_printer
+description: Local patched copy of bluetooth thermal printer plugin for Android.
+version: 0.0.6+local
+homepage: https://github.com/Rajath4/BluetoothThermalPrinter.git
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.peoplewareinnovations.bluetooth_thermal_printer
+        pluginClass: BluetoothThermalPrinterPlugin
